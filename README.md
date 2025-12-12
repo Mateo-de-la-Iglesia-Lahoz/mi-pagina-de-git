@@ -4,5 +4,7 @@ Este es el repositorio de la actividad 3.
 
 ## Acciones
 
-- Ha sido añadida la estructura basica al archivo en html.
+- Se ha añadido la estructura básica al archivo en html.
 - Se ha añadido el encabezado y el pie de página.
+- Se han añadido imágenes para los contenidos de la sección.
+- Se ha añadido el contenido y un menú.
