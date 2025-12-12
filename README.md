@@ -2,6 +2,6 @@
 
 Este es el repositorio de la actividad 3.
 
-## Actions
+## Acciones
 
 - Ha sido añadida la estructura basica al archivo en html.
