@@ -1,6 +1,6 @@
-# CoreX Sports
+# Mi Página Web
 
-En este apartado se verán los cambios que se hagan con respecto a la página web de CoreX Sports.
+En este apartado se verán los cambios que se hagan con respecto a la página web.
 
 ## Acciones principales
 
@@ -10,4 +10,4 @@ En este apartado se verán los cambios que se hagan con respecto a la página we
 - Se ha añadido el contenido y un menú.
 - Se ha actualizado el contenido del index.html, con relación al correo de contacto.
 - Se ha añadido la sección del contacto con la empresa.
-- Se ha actualizado la pestaña de contacto, en ella se verán en un futuro las distintas formas de contacto que posee la empresa, así como, un email y teléfono de contacto, y una dirección física en donde sea más fácil encontrarnos. 
+- Se ha actualizado la pestaña de contacto, en ella se verá como contactar con mi persona a través del correo, de un número de teléfono y una dirección para saber donde se ubica mi universidad.
