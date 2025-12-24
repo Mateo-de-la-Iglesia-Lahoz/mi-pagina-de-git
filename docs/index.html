@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Site Metas -->
+  <meta name="keywords" content="Fundamentos de la Ingeniería Informática, web, desarrollo" />
+  <meta name="description" content="Mi primera página web para Fundamentos de la Ingeniería Informática." />
+  <meta name="author" content="Mateo de la Iglesia Lahoz" />
+
+  <title>Mi Página Web</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-title {
+      font-size: 1.5rem;
+      padding-left: 20px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      padding-right: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    nav a.active {
+      background-color: red;
+      color: white;
+    }
+
+    .footer-section {
+      max-width: 1000px;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+
+    .footer-section a {
+      color: red;
+      text-decoration: none;
+    }
+
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .content h1 {
+      margin: 0 0 10px 0;
+    }
+
+    .content p {
+      margin: 0;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    .menu {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .menu-content {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 200px;
+    }
+
+    .menu-item p {
+      margin: 10px 0 0 0;
+      font-size: 14px;
+    }
+
+    .menu-icon {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <div class="header-content">
+      <div class="header-title">Mi Página Web</div>
+      <nav>
+        <a href="#" class="active">Inicio</a>
+        <a href="#">Programas</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="content">
+      <h1>En esta web se verá el contenido de mi grado y vida universitaria.</h1>
+      <p>
+       Bienvenido a mi página web personal creada para la asignatura de Fundamentos de la Ingeniería Informática. 
+       Aquí compartiré información sobre mis estudios, proyectos y experiencias universitarias.
+      </p>
+    </div>
+
+    <div class="menu">
+      <div class="menu-content">
+        <div class="menu-item">
+          <img src="./images/location-white.png" alt="Icono de ubicación" class="menu-icon">
+          <p>Universidad Francisco de Vitoria Pozuelo, Madrid</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="./images/telephone-white.png" alt="Icono de teléfono" class="menu-icon">
+          <p>+34 611 67 57 27</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="./images/envelope-white.png" alt="Icono de correo" class="menu-icon">
+          <p>9507391@alumnos.ufv.es</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-section">
+    <p>&copy; 2025 All Rights Reserved. Design by <a href="#">Mateo de la Iglesia Lahoz</a></p>
+  </footer>
+</body>
+</html>
